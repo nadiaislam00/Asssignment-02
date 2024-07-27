@@ -16,7 +16,7 @@ body{
     width: 100%;
     align-items: center;
 background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-
+/* border: 1px solid red; */
 }
 .main-nav{
     width: 90%;
@@ -190,6 +190,7 @@ font-weight: 900;
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
+    /* border: 1px solid red; */
 }
 .habit-content{
     text-align: center;
@@ -259,6 +260,7 @@ font-weight: 400;
 gap: 130px;
 background: rgb(34, 34, 34);
 margin-top: 150px;
+/* border: 1px solid red; */
 }
 .extra-content h1{
     color: rgb(255, 255, 255);
@@ -298,6 +300,7 @@ margin-bottom: 20px;
     margin-top: 80px;
     text-align: left;
     margin-bottom: 50px;
+    /* border: 1px solid red; */
 }
 .bmi-content h1{
     color: rgb(255, 255, 255);
@@ -321,7 +324,7 @@ margin-bottom: 20px;
 }
 .calc-chart{
     width: 50%;
-    padding: 50px;
+    padding: 30px;
 }
 .calc-chart h1{
     color: rgb(255, 255, 255);
@@ -332,7 +335,7 @@ margin-bottom: 20px;
 }
 .calc{
     width: 50%;
-    padding: 50px;
+    padding: 30px;
 }
 .calc-table{
     justify-content: center;
@@ -460,12 +463,13 @@ form{
     gap: 10px;
     margin-bottom: 20px;
 }
-
+/* team section start */
 
 .team{
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
+    /* border: 1px solid red; */
 }
 .team-content{
     text-align: center;
@@ -758,10 +762,11 @@ margin-bottom: 20px;
         justify-content: left;
         margin-left: 0px;
         width: 100%;
+        /* border: 1px solid red; */
        }
        .calc-chart{
-        width: 50%;
-        padding: 50px;
+        width: 80%;
+        /* padding: 50px; */
     }
     .calc-chart h1{
         color: rgb(255, 255, 255);
@@ -776,7 +781,8 @@ margin-bottom: 20px;
     }
     table{
        border-collapse: collapse;
-       width: 80%;
+       width: 100%;
+    
     }
     td{
        
@@ -786,11 +792,10 @@ margin-bottom: 20px;
         color: rgb(255, 255, 255);
         text-align: left;
     }
-       .calc-chart{
-        width: 100%;
-       }
+    
        .calc{
-        width: 100%;
+        width: 80%;
+
        }
        .calc h1{
         color: rgb(255, 255, 255);
@@ -798,6 +803,7 @@ margin-bottom: 20px;
         font-size: 1.5rem;
         font-weight: 900;
         margin-bottom: 20px;
+        width: 100%;
     }
        .calc p{
         color: rgba(255, 255, 255, 0.5);
@@ -805,7 +811,7 @@ margin-bottom: 20px;
     font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 20px;
-    width: 70%;
+    width: 100%;
     }
     #height{
         grid-area: height;
@@ -891,5 +897,43 @@ margin-bottom: 20px;
             font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
+        }
+        .team{
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        .teams{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .teams img{
+            width: 100%;
+            background-size: contain;
+        }
+        .team-img1{
+            height: 300px;
+        }
+        .team-img2{
+            height: 300px;
+        }
+        .team-img3{
+            height: 300px;
+        }
+        .team-img4{
+            height: 300px;
+        }
+        .team-img5{
+            height: 300px;
+        }
+        .team-img6{
+            height: 300px;
+        }
+        .trainer{
+            margin-top: 230px;
+            margin-left: 15px;
         }
     }
