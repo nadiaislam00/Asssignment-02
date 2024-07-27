@@ -2,27 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 body{
   background-color: black;
+  margin: 0px;
+  padding: 0px;
 }
 /* header section start */
+
 .nav-container{
-    width: 90%;
-margin: 0 auto;
-align-items: center;
-padding: 35px;
+    width: 100%;
+    align-items: center;
 background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 
+}
+.main-nav{
+    width: 90%;
+    margin: 0px auto;
 }
 .nav-items{
     list-style: none;
     display: flex;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-
+margin-top: 30px;
 }
 .nav-items li{
     margin-right: 40px;
@@ -35,7 +40,7 @@ cursor: pointer;
 }
 .home{
     background-color: rgb(230, 83, 60);
-    border-radius: 10px;
+    border-radius: 13px;
     color: white;
 }
 .nav-title{
@@ -43,6 +48,7 @@ cursor: pointer;
     font-size: 2.25rem;
     font-family: "Inter";
     cursor: pointer;
+    margin-top: 30px;
 }
 .nav-content{
     display: flex;
@@ -170,7 +176,7 @@ font-weight: 900;
     margin-top: 15px;
     margin-left: 5px;
     font-size: 1rem;
-    background-color: rgb(230, 83, 60);
+    background-color: rgb(249, 40, 8);
     padding: 10px;
     border-radius: 50%;
     
@@ -340,11 +346,13 @@ table{
 td{
     padding: 10px;
     color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
 }
 .head{
     color: rgb(255, 255, 255);
     padding: 10px;
     text-align: left;
+    font-family: "Inter";
 }
 .calc h1{
     color: rgb(255, 255, 255);
@@ -360,72 +368,208 @@ font-size: 0.8rem;
 font-weight: 400;
 margin-bottom: 20px;
 }
-input{
-   min-height: 60px;
-   border-radius: 8px;
-   background: rgba(255, 255, 255, 0.1);
-   border: none;
-   padding-left: 10px;
-   color: rgba(255, 255, 255, 0.6);
+
+ #height{
+    grid-area: height;
+    border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+align-items: center;
+padding: 12px 40px 12px 20px;
+color: rgba(255, 255, 255, 0.6);
 font-family: "Inter";
 font-size: 1rem;
-}
- #btn1{
-width: 100%;
-min-height: 20px;
-border-radius: 8px;
+font-weight: 400;
+text-align: left;
+ }
+ #weight{
+    grid-area: wweight;
+    border-radius: 8px;
 border: none;
-margin-top: 10px;
+background: rgba(255, 255, 255, 0.1);
+align-items: center;
+padding: 12px 40px 12px 20px;
+color: rgba(255, 255, 255, 0.6);
+font-family: "Inter";
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
+ }
+ #age{
+    grid-area: age;
+    border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+align-items: center;
+padding: 12px 40px 12px 20px;
+color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-family: "Inter";
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
+ }
+ #btn2{
+    grid-area: btn2;
+    border-radius: 8px;
+border: none;
 background: rgba(255, 255, 255, 0.1);
 display: flex;
+flex-direction: row;
 justify-content: space-between;
 align-items: center;
-padding: 5px 10px 5px 10px;
-color: gray;
-font-family: "Inter";
-font-size: 1rem;
+padding: 2px 20px 2px 20px;
+cursor: pointer;
+ }
+ #btn1{
+    grid-area: btn1;
+    border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 2px 20px 2px 20px;
 cursor: pointer;
  }
  #btn1 p{
-    color: rgba(181, 177, 177, 0.6);
-    font-family: "Inter";
-    font-size: 1rem;
- }
- #btn2{
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    border: none;
-    padding: 5px 10px 5px 10px;
-    color: rgba(61, 58, 58, 0.6);
- font-family: "Inter";
- font-size: 1rem;
- display: flex;
-justify-content: space-between;
-align-items: center;
-cursor: pointer;
+    color: rgba(158, 152, 152, 0.6);
+font-family: "Inter";
+font-size: 1rem;
+font-weight: 400;
+margin-top: 10px;
  }
  #btn2 p{
-    color: rgba(181, 177, 177, 0.6);
-    font-family: "Inter";
-    font-size: 1rem;
+    color: rgba(158, 152, 152, 0.6);
+font-family: "Inter";
+font-size: 1rem;
+font-weight: 400;
+margin-top: 10px;
  }
- button p{
-    margin-top: 20px;
-    color: rgba(255, 255, 255, 0.6);
-    font-family: "Inter";
-    font-size: 1rem;
- }
-button i{
+ button i{
     color: gray;
 }
 form{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "height height wweight wweight"
+    "age age btn2 btn2"
+    "btn1 btn1 btn1 btn1"
+    ;
     gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.team{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.team-content{
+    text-align: center;
+}
+.team-content h1{
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+font-size: 3rem;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.team-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.teams{
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.team-img1{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(images/trainer1.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+}
+.team-img1 img{
+    width: 100%;
+  
+}
+.team-img2{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(images/trainer2.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+}
+.team-img3{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(images/trainer3.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+}
+.team-img4{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(images/trainer4.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+}
+.team-img5{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(images/trainer5.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+}
+.team-img6{
+    background-image: linear-gradient(0deg, rgb(31, 30, 30) -19.5%,rgba(16, 16, 16, 0) 100%), url(images/trainer6.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+    
+}
+.trainer{
+    margin-top: 180px;
+    margin-left: 15px;
+}
+.trainer h3{
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 1.7rem;
+}
+.trainer p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
 /* responsive for mobile screen */
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
  
     .menu{
         display: block;
@@ -442,6 +586,9 @@ form{
         font-family: "Inter";
         cursor: pointer;
     }
+    .nav-container{
+        margin-bottom: 35px;
+    }
     .nav-content{
         display: flex;
         gap: 5px;
@@ -453,6 +600,7 @@ form{
        gap: 100px;
        flex-direction: column;
        margin-bottom: 0;
+       margin: 0 auto;
     }
     .banner-content{
         width: 80%;
@@ -550,7 +698,7 @@ form{
             margin-top: 15px;
             margin-left: 5px;
             font-size: 1rem;
-            background-color: rgb(220, 93, 20);
+            background-color: rgb(220, 20, 20);
             padding: 10px;
             border-radius: 50%;
             
@@ -558,7 +706,7 @@ form{
         .habits-container{
             width: 80%;
             margin: 0 auto;
-            margin-top: 0px;
+            
         }
         .habit-card{
             display: grid;
@@ -570,12 +718,13 @@ form{
             text-align: center;
         }
         .card p{
-            margin-bottom: 50px;
+            margin-bottom: 60px;
         }
         .extra-container{
             display: flex;
             flex-direction: column;
             gap: 50px;
+            margin-top: 5px;
         }
         .extra-content{
             width: 100%;
@@ -584,16 +733,72 @@ form{
         .extra-img{
             width: 100%;
         }
+        .bmi-container{
+            width: 90%;
+            text-align: left;
+        }
+        .bmi-content h1{
+            color: rgb(255, 255, 255);
+        font-family: "Inter";
+        font-size: 2rem;
+        font-weight: 900;
+        margin-bottom: 20px;
+        }
+        .bmi-content p{
+            color: rgba(255, 255, 255, 0.5);
+        font-family: "Inter";
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        line-height: 30px;
+        }
        .bmi-calculator{
         display: flex;
         flex-direction: column;
+        justify-content: left;
+        margin-left: 0px;
+        width: 100%;
        }
+       .calc-chart{
+        width: 50%;
+        padding: 50px;
+    }
+    .calc-chart h1{
+        color: rgb(255, 255, 255);
+        font-family: "Inter";
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 40px;
+    }
+    .calc-table{
+       
+        text-align: left;
+    }
+    table{
+       border-collapse: collapse;
+       width: 80%;
+    }
+    td{
+       
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .head{
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
        .calc-chart{
         width: 100%;
        }
        .calc{
         width: 100%;
        }
+       .calc h1{
+        color: rgb(255, 255, 255);
+        font-family: "Inter";
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
        .calc p{
         color: rgba(255, 255, 255, 0.5);
     font-family: "Inter";
@@ -602,7 +807,89 @@ form{
     margin-bottom: 20px;
     width: 70%;
     }
-    input{
-        width: 100%;
+    #height{
+        grid-area: height;
+        border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    width: 120px;
+     }
+     #weight{
+        grid-area: wweight;
+        border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    width: 120px;
+     }
+     #age{
+        grid-area: age;
+        border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    width: 120px;
+     }
+        form{
+            display: grid;
+            grid-template-areas: 
+            "height height wweight wweight"
+            "age age btn2 btn2"
+            "btn1 btn1 btn1 btn1"
+            ;
+            column-gap: 10px;
+            margin-bottom: 20px;
+            width: 50%;
+        }
+        #btn1 p{
+            color: rgba(158, 152, 152, 0.6);
+        font-family: "Inter";
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-top: 20px;
+         }
+         #btn2 p{
+            color: rgba(158, 152, 152, 0.6);
+        font-family: "Inter";
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-top: 20px;
+         }
+         #btn1{
+            padding: 2px 5px 2px 5px;
+         }
+         #btn2{
+            padding: 2px 20px 2px 20px;
+         }
+         .btn-primary{
+            max-width: 224px;
+            padding: 10px 10px 10px 10px;
+            border: none;
+            border-radius: 42px;
+            background: rgb(230, 83, 60);
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
     }
-}
