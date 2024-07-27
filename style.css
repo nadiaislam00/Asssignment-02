@@ -572,6 +572,60 @@ margin-bottom: 20px;
     font-weight: 400;
 }
 
+/* footer start */
+footer{
+    width: 100%;
+    background: rgb(34, 34, 34);
+    margin-top: 80px;
+}
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.get-started ul{
+list-style: none;
+margin-top: 30px;
+color: rgba(255, 255, 255, 0.5);
+font-family: "Inter";
+}
+.get-started li{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.get-started h3{
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 1.7rem;
+    margin-top: 20px;
+}
+.footer-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 30px;
+}
+ hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.copyright{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 20px;
+}
+
 /* responsive for mobile screen */
 @media screen and (max-width: 576px) {
  
@@ -762,11 +816,9 @@ margin-bottom: 20px;
         justify-content: left;
         margin-left: 0px;
         width: 100%;
-        /* border: 1px solid red; */
        }
        .calc-chart{
         width: 80%;
-        /* padding: 50px; */
     }
     .calc-chart h1{
         color: rgb(255, 255, 255);
@@ -935,5 +987,13 @@ margin-bottom: 20px;
         .trainer{
             margin-top: 230px;
             margin-left: 15px;
+        }
+        .footer-container{
+            flex-direction: column;
+
+            align-items: flex-start;
+        }
+        .get-started{
+            margin-top: 20px;
         }
     }
