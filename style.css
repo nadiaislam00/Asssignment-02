@@ -292,12 +292,131 @@ margin-bottom: 20px;
 
 /* extra section end */
 
+/* challenging part start */
+
+.nutration{
+    width: 80%;
+margin: 0 auto;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+.nutration-content{
+    text-align: center;
+}
+.nutration-content h1{
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 3rem;
+    font-weight: 900;
+    
+}
+.nutration-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+.plans{
+    /* background: rgb(34, 34, 34);  */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 40px;
+}
+.c-img{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+   
+}
+.c-img img{
+    width: 100%;
+    height: 100%;
+   border-radius: 8px;
+}
+.c1{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
+}
+.c1 button{
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: lawngreen;
+    color: black;
+    }
+    .c1 button:hover{
+        background-color: coral;
+        border: none;
+    }
+    .c2 button:hover{
+        background-color: coral;
+        border: none;
+    }
+    .c3 button:hover{
+        background-color: coral;
+        border: none;
+    }
+.c2{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
+    width: 100%;
+}
+.c2 button{
+margin-top: 28px;
+margin-left: 50px;
+background-color: lawngreen;
+    color: black;
+}
+.c3{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
+    width: 100%;
+}
+.c3 button{
+    margin-top: 57px;
+    margin-left: 50px;
+    background-color: lawngreen;
+    color: black;
+    }
+.content{
+    margin-top: 20px;
+}
+.content h3{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 1.5rem;
+font-weight: 900;
+}
+.content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* challenging part end */
 /* BMI section start */
 
 .bmi-container{
    width: 50%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 120px;
     text-align: left;
     margin-bottom: 50px;
     /* border: 1px solid red; */
