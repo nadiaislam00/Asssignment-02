@@ -348,21 +348,21 @@ margin-bottom: 50px;
     filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
 }
 .c1 button{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 50px;
     background-color: lawngreen;
     color: black;
     }
     .c1 button:hover{
-        background-color: coral;
+        background-color: rgb(232, 240, 167);
         border: none;
     }
     .c2 button:hover{
-        background-color: coral;
+        background-color: rgb(232, 240, 167);
         border: none;
     }
     .c3 button:hover{
-        background-color: coral;
+        background-color: rgb(232, 240, 167);
         border: none;
     }
 .c2{
@@ -373,7 +373,7 @@ margin-bottom: 50px;
     width: 100%;
 }
 .c2 button{
-margin-top: 28px;
+margin-top: 26px;
 margin-left: 50px;
 background-color: lawngreen;
     color: black;
@@ -420,6 +420,23 @@ font-weight: 900;
     text-align: left;
     margin-bottom: 50px;
     /* border: 1px solid red; */
+}
+select{
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px 12px ;
+    color: gray;
+font-family: "Inter";
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
+border: none;
+grid-area: select;
+}
+#select-tag{
+    grid-area: select2;
+    width: 580px;
 }
 .bmi-content h1{
     color: rgb(255, 255, 255);
@@ -531,8 +548,8 @@ font-size: 1rem;
 font-weight: 400;
 text-align: left;
  }
- #btn2{
-    grid-area: btn2;
+ select{
+    grid-area: select;
     border-radius: 8px;
 border: none;
 background: rgba(255, 255, 255, 0.1);
@@ -543,8 +560,8 @@ align-items: center;
 padding: 2px 20px 2px 20px;
 cursor: pointer;
  }
- #btn1{
-    grid-area: btn1;
+ #select-tag{
+    grid-area: select-tag;
     border-radius: 8px;
 border: none;
 background: rgba(255, 255, 255, 0.1);
@@ -552,17 +569,17 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-padding: 2px 20px 2px 20px;
+padding: 15px 20px 15px 20px;
 cursor: pointer;
  }
- #btn1 p{
+ #select-tag p{
     color: rgba(158, 152, 152, 0.6);
 font-family: "Inter";
 font-size: 1rem;
 font-weight: 400;
 margin-top: 10px;
  }
- #btn2 p{
+select p{
     color: rgba(158, 152, 152, 0.6);
 font-family: "Inter";
 font-size: 1rem;
@@ -576,8 +593,8 @@ form{
     display: grid;
     grid-template-areas: 
     "height height wweight wweight"
-    "age age btn2 btn2"
-    "btn1 btn1 btn1 btn1"
+    "age age select select"
+    "select-tag select-tag select-tag select-tag"
     ;
     gap: 10px;
     margin-bottom: 20px;
@@ -993,7 +1010,7 @@ font-family: "Inter";
     padding: 8px 20px 8px 20px;
     color: rgba(255, 255, 255, 0.6);
     font-family: "Inter";
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: left;
     width: 120px;
@@ -1007,7 +1024,7 @@ font-family: "Inter";
     padding: 8px 20px 8px 20px;
     color: rgba(255, 255, 255, 0.6);
     font-family: "Inter";
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: left;
     width: 120px;
@@ -1021,7 +1038,7 @@ font-family: "Inter";
     padding: 8px 20px 8px 20px;
     color: rgba(255, 255, 255, 0.6);
     font-family: "Inter";
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: left;
     width: 120px;
@@ -1030,33 +1047,61 @@ font-family: "Inter";
             display: grid;
             grid-template-areas: 
             "height height wweight wweight"
-            "age age btn2 btn2"
-            "btn1 btn1 btn1 btn1"
+            "age age select select"
+            "select-tag select-tag select-tag select-tag"
             ;
             column-gap: 10px;
             margin-bottom: 20px;
             width: 50%;
         }
-        #btn1 p{
+        #select-tag p{
+            color: rgba(158, 152, 152, 0.6);
+        font-family: "Inter";
+        font-size: 2rem;
+        font-weight: 400;
+        margin-top: 20px;
+         }
+         select p{
             color: rgba(158, 152, 152, 0.6);
         font-family: "Inter";
         font-size: 0.8rem;
         font-weight: 400;
         margin-top: 20px;
          }
-         #btn2 p{
-            color: rgba(158, 152, 152, 0.6);
-        font-family: "Inter";
-        font-size: 0.8rem;
-        font-weight: 400;
-        margin-top: 20px;
-         }
-         #btn1{
+         #select-tag{
             padding: 2px 5px 2px 5px;
+            width: 330px;
          }
-         #btn2{
+         select{
             padding: 2px 20px 2px 20px;
+            width: 160px;
          }
+         select{
+            grid-area: select;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px 20px 2px 20px;
+        cursor: pointer;
+         }
+         #select-tag{
+            grid-area: select-tag;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px 15px 20px;
+        cursor: pointer;
+         }
+        
+
          .btn-primary{
             max-width: 224px;
             padding: 10px 10px 10px 10px;
@@ -1115,4 +1160,49 @@ font-family: "Inter";
         .get-started{
             margin-top: 20px;
         }
+        .nutration-content{
+            text-align: center;
+        }
+        .nutration-content h1{
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+        .nutration-content p{
+            color: rgba(255, 255, 255, 0.5);
+            font-family: "Inter";
+            font-size: 0.8rem;
+            font-weight: 400;
+            line-height: 2rem;
+            margin-top: 10px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .plans{
+            /* background: rgb(34, 34, 34);  */
+            display: flex;
+            width: 90%;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 40px;
+        }
+    }
+
+
+    @media screen and (min-width:576px) and (max-width: 768px) {
+
+    }
+
+
+    @media screen and (min-width:768px) and (max-width: 992px){
+
+    }
+
+    @media screen and (min-width:992px) and (max-width: 1200px){
+
+    }
+    @media screen and (min-width: 1200px) and (max-width: 1400px){
+        
     }
