@@ -1191,18 +1191,1397 @@ font-family: "Inter";
     }
 
 
-    @media screen and (min-width:576px) and (max-width: 768px) {
+    @media screen and (min-width:576px) and (max-width: 769px) {
+   
+.nav-container{
+    width: 100%;
+    align-items: center;
+background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+/* border: 1px solid red; */
+}
+.main-nav{
+    width: 90%;
+    margin: 0px auto;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+margin-top: 40px;
+width: 100%;
+}
+        .nav-title{
+            color: rgb(230, 83, 60);
+            font-size: 1.25rem;
+            font-family: "Inter";
+            cursor: pointer;
+            margin-top: 40px;
+        }
+        .nav-items li{
+            margin-right: 15px;
+            color: rgb(255, 255, 255);
+        font-family: "Inter";
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding: 8px 8px 8px 8px;
+        cursor: pointer;
+        }
+        .home{
+            background-color: rgb(230, 83, 60);
+            border-radius: 13px;
+            color: white;
+        }
+        /* .nav-title{
+            color: rgb(230, 83, 60);
+            font-size: 2.25rem;
+            font-family: "Inter";
+            cursor: pointer;
+            margin-top: 30px;
+        } */
+        .nav-container{
+            margin-bottom: 35px;
+        }
+        .nav-content{
+            display: flex;
+            justify-content: space-between;
+            gap: 90px;
+            margin-bottom: 30px;
+        }
+        .banner{
+            /* margin-top: 150px; */
+            width: 100%;
+            display: flex;
+           gap: 100px;
+           flex-direction: column;
+           margin-bottom: 0;
+           margin: 0 auto;
+        }
+        .banner-content{
+            width: 70%;
+            margin-top: 30px;
+        }
+        .banner-content h1{
+            color: rgb(255, 255, 255);
+        font-family: "Inter";
+        font-size: 4rem;
+        font-weight: 900;
+        margin-bottom: 30px;
+        
+        }
+        .btn-container{
+            display: flex;
+            width: 100%;
+        }
+        .btn-primary{
+            width: 50%;
+            padding: 10px;
+            border: none;
+            border-radius: 42px;
+            background: rgb(230, 83, 60);
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .btn-secondary{
+            border: 1px solid rgb(255, 255, 255);
+            width: 50%;
+            padding: 10px;
+           
+            border-radius: 42px;
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1rem;
+            font-weight: 600;
+            background-color: transparent;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        .banner-img{
+            width: 50%;
+            margin: 0 auto;
+        }
+        .banner-img img{
+            width: 100%;
+            position: relative;
+        }
+        .btn-1{
+            max-width: 170px;
+            height: 98px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 10px;
+            border: none;
+            position: absolute;
+            top: 70px;
+            right: -20px;
+            cursor: pointer;
+            text-align: left;
+            }
+            .btn-1 h4{
+                text-align: left;
+                color: rgb(255, 255, 255);
+                font-family: Inter;
+                font-size: 2rem;
+                font-weight: 900;
+                }
+                .btn-1 p{
+                    color: rgba(255, 255, 255, 0.65);
+                    font-family: "Inter";
+                    font-size: 0.8rem;
+                    font-weight: 400;
+                }
+                .btn-2 h4{
+                    text-align: left;
+                    color: rgb(255, 255, 255);
+                    font-family: Inter;
+                    font-size: 2rem;
+                    font-weight: 900;
+                    }
+                .btn-2 p{
+                        color: rgba(255, 255, 255, 0.65);
+                        font-family: "Inter";
+                        font-size: 0.8rem;
+                        font-weight: 400;
+                    }
+            .btn-2{
+                max-width: 200px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 20px;
+            padding: 10px;
+            border: none;
+            position: absolute;
+            z-index: 1;
+            bottom: 120px;
+            left: 0px;
+            display: flex;
+            gap: 10px;
+            cursor: pointer;
+            }
+            .btn-2 h4{
+                text-align: left;
+                color: rgb(255, 255, 255);
+                font-family: Inter;
+                font-size: 1.5rem;
+                font-weight: 900;
+                margin-top: 10px;
+                }
+            .btn-2 p{
+                    color: rgba(255, 255, 255, 0.65);
+                    font-family: "Inter";
+                    font-size: 0.9rem;
+                    font-weight: 400;
+                    text-align: left;
+                }
+            .btn-icon{
+                color: white;
+                margin-top: 15px;
+                margin-left: 5px;
+                font-size: 1rem;
+                background-color: rgb(220, 20, 20);
+                padding: 10px;
+                border-radius: 50%;
+                
+            }
+            .habits-container{
+                width: 90%;
+                margin: 0 auto;
+                
+            }
+            .habit-card{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 0px;
+                margin-top: 60px;
+            }
+            .card-content{
+                text-align: center;
+                width: 50%;
+            }
+            .card p{
+                margin-bottom: 60px;
+            }
+            .extra-container{
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                padding: 30px;
+                border-radius: 18px;
+            gap: 50px;
+            background: rgb(34, 34, 34);
+            margin-top: 50px;
+           
+            }
+            .extra-content h1{
+                color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 2rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            }
+            .extra-content{
+                width: 40%;
+                margin-left: 10px;
+            }
+            .extra-img{
+             width: 60%;
+            }
+            .extra-img img{
+                width: 100%;
+             height: 100%;
+        
+                border-radius: 18px;
+            }
+            .extra-content p{
+                color: rgba(255, 255, 255, 0.5);
+            font-family: "Inter";
+            font-size: 0.8rem;
+            font-weight: 400;
+            line-height: 2rem;
+            margin-bottom: 20px;
+            }
+            
+            .bmi-container{
+                width: 90%;
+                text-align: left;
+            }
+            .bmi-content h1{
+                color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 2rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            }
+            .bmi-content p{
+                color: rgba(255, 255, 255, 0.5);
+            font-family: "Inter";
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+            line-height: 30px;
+            }
+           .bmi-calculator{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            margin-left: 0px;
+            width: 100%;
+           }
+           .calc-chart{
+            width: 80%;
+        }
+        .calc-chart h1{
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 40px;
+        }
+        .calc-table{
+           
+            text-align: left;
+        }
+        table{
+           border-collapse: collapse;
+           width: 100%;
+        
+        }
+        td{
+           
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .head{
+            color: rgb(255, 255, 255);
+            text-align: left;
+        }
+        
+           .calc{
+            width: 90%;
+    
+           }
+           .calc h1{
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+           .calc p{
+            color: rgba(255, 255, 255, 0.5);
+        font-family: "Inter";
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        width: 100%;
+        }
+        #height{
+            grid-area: height;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+       width: 100%;
+         }
+         #weight{
+            grid-area: wweight;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+        width:76%;
+         }
+         #age{
+            grid-area: age;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+        width: 100%;
+         }
+            form{
+                display: grid;
+                grid-template-areas: 
+                "height height wweight wweight"
+                "age age select select"
+                "select-tag select-tag select-tag select-tag"
+                ;
+                column-gap: 50px;
+                margin-bottom: 20px;
+                width: 100%;
+            }
+            #select-tag p{
+                color: rgba(158, 152, 152, 0.6);
+            font-family: "Inter";
+            font-size: 2rem;
+            font-weight: 400;
+            margin-top: 20px;
+             }
+             select p{
+                color: rgba(158, 152, 152, 0.6);
+            font-family: "Inter";
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin-top: 20px;
+             }
+             #select-tag{
+                padding: 2px 5px 2px 5px;
+               width: 94%;
+             }
 
+             select{
+                grid-area: select;
+                border-radius: 8px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px 20px 2px 20px;
+            cursor: pointer;
+            width: 88%;
+             }
+             #select-tag{
+                grid-area: select-tag;
+                border-radius: 8px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px 15px 20px;
+            cursor: pointer;
+             }
+            
+    
+             .btn-primary{
+                max-width: 224px;
+                padding: 10px 10px 10px 10px;
+                border: none;
+                border-radius: 42px;
+                background: rgb(230, 83, 60);
+                color: rgb(255, 255, 255);
+                font-family: "Inter";
+                font-size: 1rem;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .team{
+                width: 90%;
+                margin: 0 auto;
+                margin-top: 100px;
+            }
+            .teams{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                gap: 20px;
+                padding: 10px;
+                border-radius: 20px;
+            }
+            .teams img{
+                width: 100%;
+                background-size: contain;
+            }
+            .team-img1{
+                height: 300px;
+            }
+            .team-img2{
+                height: 300px;
+            }
+            .team-img3{
+                height: 300px;
+            }
+            .team-img4{
+                height: 300px;
+            }
+            .team-img5{
+                height: 300px;
+            }
+            .team-img6{
+                height: 300px;
+            }
+            .trainer{
+                margin-top: 210px;
+                margin-left: 15px;
+            }
+            .footer-container{
+                flex-direction: column;
+    
+                align-items: flex-start;
+            }
+            .get-started{
+                margin-top: 20px;
+            }
+            .nutration{
+                width: 80%;
+            margin: 0 auto;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            }
+            .nutration-content{
+                text-align: center;
+            }
+            .nutration-content h1{
+                color: rgb(255, 255, 255);
+                font-family: "Inter";
+                font-size: 3rem;
+                font-weight: 900;
+                
+            }
+            .nutration-content p{
+                color: rgba(255, 255, 255, 0.5);
+                font-family: "Inter";
+                font-size: 0.8rem;
+                font-weight: 400;
+                line-height: 2rem;
+                margin-top: 10px;
+                width: 50%;
+                margin: 0 auto;
+            }
+            .plans{
+                /* background: rgb(34, 34, 34);  */
+                display: grid;
+                width: 100%;
+               grid-template-columns: repeat(2,1fr);
+                gap: 50px;
+                margin-top: 40px;
+                /* flex-direction: column; */
+            }
+            .c-img{
+                width: 100%;
+                height: 300px;
+                margin: 0 auto;
+                border-radius: 8px;
+               
+            }
+            .c-img img{
+                width: 100%;
+                height: 100%;
+               border-radius: 8px;
+            }
+            .c1{
+                width: 90%;
+                padding: 20px;
+                border-radius: 10px;
+                border: 1px solid gray;
+                filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
+            }
+            .c1 button{
+                margin-top: 10px;
+                margin-left: 50px;
+                background-color: lawngreen;
+                color: black;
+                }
+                .c1 button:hover{
+                    background-color: rgb(232, 240, 167);
+                    border: none;
+                }
+                .c2 button:hover{
+                    background-color: rgb(232, 240, 167);
+                    border: none;
+                }
+                .c3 button:hover{
+                    background-color: rgb(232, 240, 167);
+                    border: none;
+                }
+            .c2{
+                padding: 20px;
+                border: 1px solid gray;
+                border-radius: 10px;
+                filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
+                width: 100%;
+            }
+            .c2 button{
+            margin-top: 26px;
+            margin-left: 50px;
+            background-color: lawngreen;
+                color: black;
+            }
+            .c3{
+                padding: 20px;
+                border: 1px solid gray;
+                border-radius: 10px;
+                filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
+                width: 100%;
+                margin-left: 150px;
+            }
+            .c3 button{
+                margin-top: 57px;
+                margin-left: 50px;
+                background-color: lawngreen;
+                color: black;
+                }
+            .content{
+                margin-top: 20px;
+            }
+            .content h3{
+                color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1.5rem;
+            font-weight: 900;
+            }
+            .content p{
+                color: rgba(255, 255, 255, 0.5);
+                font-family: "Inter";
+                font-size: 0.8rem;
+                font-weight: 400;
+                line-height: 1rem;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .trainer h3{
+                color: rgb(255, 255, 255);
+                font-family: "Inter";
+                font-size: 1.4rem;
+            }
+            .trainer p{
+                color: rgba(255, 255, 255, 0.5);
+                font-family: "Inter";
+                font-size: 0.8rem;
+                font-weight: 400;
+            } 
     }
 
 
-    @media screen and (min-width:768px) and (max-width: 992px){
+    @media screen and (min-width:769px) and (max-width: 992px){
+        .nav-container{
+            width: 100%;
+            align-items: center;
+        background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+        /* border: 1px solid red; */
+        }
+        .main-nav{
+            width: 90%;
+            margin: 0px auto;
+        }
+        .nav-title{
+            color: rgb(230, 83, 60);
+            font-size: 2.25rem;
+            font-family: "Inter";
+            cursor: pointer;
+            margin-top: 30px;
+        }
+        .nav-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+        }
+        .banner{
+            margin-top: 45px;
+            width: 100%;
+            display: flex;
+           /* flex-direction: column; */
+           background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+        }
+        .banner-content{
+            width: 50%;
+            margin-top: 90px;
+            margin-left: 40px;
+           
+        }
+        .banner-img{
+            width: 50%;
+            position: relative;
+            margin: 0 auto;
+        }
+        
+        .banner-content h1{
+            color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 2rem;
+        font-weight: 900;
+        margin-bottom: 40px;
+        }
+        .italic{
+          font-family: "Allura", cursive;
+          font-weight: 100;
+          font-style: normal;
+          font-size: 6rem;
+        }
+        .banner-content p{
+            color: rgba(255, 255, 255, 0.5);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 70px;
+        }
+        .nav-items li{
+            margin-right: 15px;
+            color: rgb(255, 255, 255);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 8px 8px 8px 8px;
+        cursor: pointer;
+        }
+        .plans{
+            /* background: rgb(34, 34, 34);  */
+            display: grid;
+            width: 100%;
+           grid-template-columns: repeat(2,1fr);
+            gap: 50px;
+            margin-top: 40px;
+            /* flex-direction: column; */
+        }
+        .habit-card{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 0px;
+            margin-top: 60px;
+        }
+        .btn-container{
+            display: flex;
+            width: 100%;
+        }
+        .btn-primary{
+            max-width: 224px;
+            padding: 10px;
+            border: none;
+            border-radius: 42px;
+            background: rgb(230, 83, 60);
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .btn-secondary{
+            border: 1px solid rgb(255, 255, 255);
+            width: 50%;
+            padding: 15px;
+           
+            border-radius: 42px;
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1rem;
+            font-weight: 600;
+            background-color: transparent;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        .btn-1{
+            max-width: 170px;
+            height: 98px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 5px;
+            border: none;
+            position: absolute;
+            top: 150px;
+            right: 8px;
+            cursor: pointer;
+            text-align: left;
+            }
+            .plans{
+                /* background: rgb(34, 34, 34);  */
+                display: flex;
+                width: 100%;
+                /* flex-direction: column; */
+              justify-content: space-evenly;
+                margin-top: 40px;
+                
+            }
+            .nutration{
+                width: 90%;
+            }
+            .c-img{
+                width: 100%;
+                height: 200px;
+                margin: 0 auto;
+                border-radius: 8px;
+               
+            }
+            .c-img img{
+                width: 100%;
+                height: 100%;
+               border-radius: 8px;
+            }
+            .c1{
+                width: 100%;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid gray;
+                filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
+            }
+           
+          
+            .c1 button{
+                margin-top: 10px;
+                margin-left: 20px;
+                background-color: lawngreen;
+                color: black;
+                padding: 5px;
+                width: 80%;
+                }
+                .c1 button:hover{
+                    background-color: rgb(232, 240, 167);
+                    border: none;
+                }
+                .c2 button:hover{
+                    background-color: rgb(232, 240, 167);
+                    border: none;
+                }
+                .c3 button:hover{
+                    background-color: rgb(232, 240, 167);
+                    border: none;
+                }
+            .c2{
+                width: 100%;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid gray;
+                filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
+            }
+            .c2 button{
+                margin-top: 40px;
+                margin-left: 20px;
+                background-color: lawngreen;
+                color: black;
+                padding: 5px;
+                width: 80%;
+            }
+            .c3{
+                width: 100%;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid gray;
+                filter: drop-shadow(5px 5px 5px rgba(178, 166, 166, 0.3));
+            }
+            .c3 button{
+                margin-top: 70px;
+                margin-left: 20px;
+                background-color: lawngreen;
+                color: black;
+                padding: 5px;
+                width: 80%;
+                }
+            .content{
+                margin-top: 20px;
+            }
+            .content h3{
+                color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1.5rem;
+            font-weight: 900;
+            }
+            .content p{
+                color: rgba(255, 255, 255, 0.5);
+                font-family: "Inter";
+                font-size: 0.8rem;
+                font-weight: 400;
+                line-height: 1rem;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+              
+            .bmi-container{
+                width: 90%;
+                text-align: left;
+            }
+            .bmi-content h1{
+                color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 2rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            }
+            .bmi-content p{
+                color: rgba(255, 255, 255, 0.5);
+            font-family: "Inter";
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+            line-height: 30px;
+            }
+           .bmi-calculator{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            margin-left: 0px;
+            width: 100%;
+           }
+           .calc-chart{
+            width: 80%;
+        }
+        .calc-chart h1{
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 40px;
+        }
+        .calc-table{
+           
+            text-align: left;
+        }
+        table{
+           border-collapse: collapse;
+           width: 100%;
+        
+        }
+        td{
+           
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .head{
+            color: rgb(255, 255, 255);
+            text-align: left;
+        }
+        
+           .calc{
+            width: 90%;
+    
+           }
+           .calc h1{
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+           .calc p{
+            color: rgba(255, 255, 255, 0.5);
+        font-family: "Inter";
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        width: 100%;
+        }
+        #height{
+            grid-area: height;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+       width: 100%;
+         }
+         #weight{
+            grid-area: wweight;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+        width:76%;
+         }
+         #age{
+            grid-area: age;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+        width: 100%;
+         }
+            form{
+                display: grid;
+                grid-template-areas: 
+                "height height wweight wweight"
+                "age age select select"
+                "select-tag select-tag select-tag select-tag"
+                ;
+                column-gap: 50px;
+                margin-bottom: 20px;
+                width: 100%;
+            }
+            #select-tag p{
+                color: rgba(158, 152, 152, 0.6);
+            font-family: "Inter";
+            font-size: 2rem;
+            font-weight: 400;
+            margin-top: 20px;
+             }
+             select p{
+                color: rgba(158, 152, 152, 0.6);
+            font-family: "Inter";
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin-top: 20px;
+             }
+             #select-tag{
+                padding: 2px 5px 2px 5px;
+               width: 94%;
+             }
 
+             select{
+                grid-area: select;
+                border-radius: 8px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px 20px 2px 20px;
+            cursor: pointer;
+            width: 88%;
+             }
+             #select-tag{
+                grid-area: select-tag;
+                border-radius: 8px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px 15px 20px;
+            cursor: pointer;
+             }
+            
+    
+            .calc .btn-primary{
+                width: 250px;
+                padding: 10px 10px 10px 10px;
+                border: none;
+                border-radius: 42px;
+                background: rgb(230, 83, 60);
+                color: rgb(255, 255, 255);
+                font-family: "Inter";
+                font-size: 1rem;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .trainer h3{
+                color: rgb(255, 255, 255);
+                font-family: "Inter";
+                font-size: 1.2rem;
+            }
+            .trainer p{
+                color: rgba(255, 255, 255, 0.5);
+                font-family: "Inter";
+                font-size: 0.8rem;
+                font-weight: 400;
+            } 
+            .extra-content{
+                width: 40%;
+                margin-left: 10px;
+            }
+            .extra-img{
+             width: 60%;
+            }
+            .extra-img img{
+                width: 100%;
+             height: 100%;
+        
+                border-radius: 18px;
+            }
+          
+            .extra-content h1{
+                color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 2rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            }
+            
     }
 
     @media screen and (min-width:992px) and (max-width: 1200px){
+        .calc h1{
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+           .calc p{
+            color: rgba(255, 255, 255, 0.5);
+        font-family: "Inter";
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        width: 100%;
+        }
+        #height{
+            grid-area: height;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+       width: 100%;
+         }
+         #weight{
+            grid-area: wweight;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+        width:76%;
+         }
+         #age{
+            grid-area: age;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+        width: 100%;
+         }
+            form{
+                display: grid;
+                grid-template-areas: 
+                "height height wweight wweight"
+                "age age select select"
+                "select-tag select-tag select-tag select-tag"
+                ;
+                column-gap: 50px;
+                margin-bottom: 20px;
+                width: 100%;
+            }
+            #select-tag p{
+                color: rgba(158, 152, 152, 0.6);
+            font-family: "Inter";
+            font-size: 2rem;
+            font-weight: 400;
+            margin-top: 20px;
+             }
+             select p{
+                color: rgba(158, 152, 152, 0.6);
+            font-family: "Inter";
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin-top: 20px;
+             }
+             #select-tag{
+                padding: 2px 5px 2px 5px;
+               width: 94%;
+             }
 
+             select{
+                grid-area: select;
+                border-radius: 8px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px 20px 2px 20px;
+            cursor: pointer;
+            width: 88%;
+             }
+             #select-tag{
+                grid-area: select-tag;
+                border-radius: 8px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px 15px 20px;
+            cursor: pointer;
+             }
+             .trainer h3{
+                color: rgb(255, 255, 255);
+                font-family: "Inter";
+                font-size: 1.2rem;
+            }
+            .trainer p{
+                color: rgba(255, 255, 255, 0.5);
+                font-family: "Inter";
+                font-size: 0.8rem;
+                font-weight: 400;
+            } 
+            .c1 button{
+                margin-top: 10px;
+                margin-left: 20px;
+                background-color: lawngreen;
+                color: black;
+                padding: 5px;
+                width: 80%;
+                }
+                .c2 button{
+                    margin-top: 25px;
+                    margin-left: 20px;
+                    background-color: lawngreen;
+                    color: black;
+                    padding: 5px;
+                    width: 80%;
+                    }
+                    .c3 button{
+                        margin-top: 57px;
+                        margin-left: 20px;
+                        background-color: lawngreen;
+                        color: black;
+                        padding: 5px;
+                        width: 80%;
+                        }
+                        .banner-content h1{
+                            color: rgb(255, 255, 255);
+                        font-family: Inter;
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        margin-bottom: 40px;
+                        }
+                        .italic{
+                          font-family: "Allura", cursive;
+                          font-weight: 100;
+                          font-style: normal;
+                          font-size: 6rem;
+                        }
+                        .banner-content p{
+                            color: rgba(255, 255, 255, 0.5);
+     font-family: "Inter";
+                        font-size: 1rem;
+                        font-weight: 400;
+                        margin-bottom: 70px;
+           }
+           .btn-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+           }
+           .btn-secondary{
+            margin-left: 0px;
+           }
+           .btn-1{
+            max-width: 190px;
+            height: 98px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 15px;
+            border: none;
+            position: absolute;
+            top: 140px;
+            right: -5px;
+            cursor: pointer;
+            }
+            .btn-2{
+                max-width: 200px;
+                height: 98px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 20px;
+            padding: 15px;
+            border: none;
+            position: absolute;
+            z-index: 1;
+            bottom: 30px;
+            left: 0px;
+            display: flex;
+            gap: 20px;
+            cursor: pointer;
+            }
     }
     @media screen and (min-width: 1200px) and (max-width: 1400px){
-        
+        .calc h1{
+            color: rgb(255, 255, 255);
+            font-family: "Inter";
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+           .calc p{
+            color: rgba(255, 255, 255, 0.5);
+        font-family: "Inter";
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        width: 100%;
+        }
+        #height{
+            grid-area: height;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+       width: 100%;
+         }
+         #weight{
+            grid-area: wweight;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+        width:76%;
+         }
+         #age{
+            grid-area: age;
+            border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        padding: 8px 20px 8px 20px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Inter";
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+        width: 100%;
+         }
+            form{
+                display: grid;
+                grid-template-areas: 
+                "height height wweight wweight"
+                "age age select select"
+                "select-tag select-tag select-tag select-tag"
+                ;
+                column-gap: 50px;
+                margin-bottom: 20px;
+                width: 100%;
+            }
+            #select-tag p{
+                color: rgba(158, 152, 152, 0.6);
+            font-family: "Inter";
+            font-size: 2rem;
+            font-weight: 400;
+            margin-top: 20px;
+             }
+             select p{
+                color: rgba(158, 152, 152, 0.6);
+            font-family: "Inter";
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin-top: 20px;
+             }
+             #select-tag{
+                padding: 2px 5px 2px 5px;
+               width: 100%;
+             }
+
+             select{
+                grid-area: select;
+                border-radius: 8px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px 20px 2px 20px;
+            cursor: pointer;
+            width: 95%;
+             }
+             #select-tag{
+                grid-area: select-tag;
+                border-radius: 8px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px 15px 20px;
+            cursor: pointer;
+             }
+             .c3 button{
+                margin-bottom: 50px;
+                margin-left: 20px;
+                background-color: lawngreen;
+                color: black;
+                padding: 5px;
+                width: 80%;
+             }
     }
