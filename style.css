@@ -1035,6 +1035,9 @@ font-family: "Inter";
         width: 80%;
 
        }
+       .calc .btn-primary{
+        width: 100%;
+       }
        .calc h1{
         color: rgb(255, 255, 255);
         font-family: "Inter";
